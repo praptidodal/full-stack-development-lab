@@ -1,6 +1,6 @@
 # Full Stack Development Lab Assignments
 
-**Student:** [Student Name]
+**Student:** Prapti Dodal
 
 **Course:** MCA
 
