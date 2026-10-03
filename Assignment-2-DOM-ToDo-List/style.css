@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 6px;
+}
+
+button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+}
+
+li button {
+    margin-left: 5px;
+    float: right;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
