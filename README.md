@@ -6,6 +6,12 @@
 
 **Subject:** Full Stack Development
 
+## Live Demo
+
+https://praptidodal.github.io/full-stack-development-lab/
+
+[View Live Project](https://praptidodal.github.io/full-stack-development-lab/)
+
 ## Assignments
 
 ### Assignment 1

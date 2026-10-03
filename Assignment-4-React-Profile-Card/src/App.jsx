@@ -11,13 +11,13 @@ function App() {
         <ProfileCard
           name="Rahul Sharma"
           image={rahulImg}
-          description="MCA student who likes web development and cricket."
+          description="Computer science student who enjoys building web apps, exploring new tech, and spending weekends playing cricket."
         />
 
         <ProfileCard
           name="Priya Patel"
           image={priyaImg}
-          description="MCA student interested in React and UI design."
+          description="Computer science student who enjoys React, UI design, photography, and discovering new places around the city."
         />
       </div>
 
