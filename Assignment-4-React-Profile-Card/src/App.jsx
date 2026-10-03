@@ -1,4 +1,6 @@
 import ProfileCard from './ProfileCard.jsx'
+import rahulImg from './assets/rahul.jpg'
+import priyaImg from './assets/priya.jpg'
 
 function App() {
   return (
@@ -7,13 +9,13 @@ function App() {
 
       <ProfileCard
         name="Rahul Sharma"
-        image="https://randomuser.me/api/portraits/men/32.jpg"
+        image={rahulImg}
         description="MCA student who likes web development and cricket."
       />
 
       <ProfileCard
         name="Priya Patel"
-        image="https://randomuser.me/api/portraits/women/44.jpg"
+        image={priyaImg}
         description="MCA student interested in React and UI design."
       />
     </div>
