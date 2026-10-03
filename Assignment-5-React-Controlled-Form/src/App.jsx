@@ -14,6 +14,7 @@ function App() {
         <input
           type="text"
           value={name}
+          placeholder="Enter your name"
           onChange={(e) => setName(e.target.value)}
         />
 
@@ -21,6 +22,7 @@ function App() {
         <input
           type="email"
           value={email}
+          placeholder="Enter your email"
           onChange={(e) => setEmail(e.target.value)}
         />
 
@@ -28,14 +30,22 @@ function App() {
         <input
           type="text"
           value={course}
+          placeholder="Enter your course"
           onChange={(e) => setCourse(e.target.value)}
         />
       </form>
 
-      <h2>Entered Information</h2>
-      <p>Name: {name}</p>
-      <p>Email: {email}</p>
-      <p>Course: {course}</p>
+      <div className="info-box">
+        <h2>Entered Information</h2>
+        <p><strong>Name:</strong> {name}</p>
+        <p><strong>Email:</strong> {email}</p>
+        <p><strong>Course:</strong> {course}</p>
+      </div>
+
+      <div className="nav-bottom">
+        <a href="../index.html" className="nav-link">&larr; Home</a>
+        <a href="../Assignment-6-React-Counter/index.html" className="nav-link">Assignment 6 &rarr;</a>
+      </div>
     </div>
   )
 }
